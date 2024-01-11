@@ -14,7 +14,7 @@ import { cn } from "@/lib/utils";
 
 export function ThemeMenu() {
   const { setTheme } = useTheme();
-  const themes = ["rose", "blue", "orange", "green", "gradient1", "pink"];
+  const themes = ["rose", "blue", "orange", "green", "violet", "pink"];
 
   return (
     <DropdownMenu>
